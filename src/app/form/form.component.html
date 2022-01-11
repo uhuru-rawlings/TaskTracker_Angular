@@ -1,0 +1,10 @@
+<div class="forms">
+    <form #forms="ngForm">
+        <div class="flexinputs">
+            <input type="text" #taskadded="ngModel" [(ngModel)]="taskaddeds" name="task" id="task" autocomplete="off" placeholder="Enter tasks">
+            <input type="submit" value="Add" (click)="getAddedTask(forms)" id="add">
+        </div>
+    </form>
+</div>
+<app-tasks [tasks]="tasks"></app-tasks>
+<app-footer></app-footer>

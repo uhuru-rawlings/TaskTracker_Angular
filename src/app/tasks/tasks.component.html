@@ -1,0 +1,11 @@
+<div class="tasks" id="tasks">
+    <div class="taskcard" *ngFor="let task of tasks; let i = index" (click)="markComplete(i)">
+        <div class="sub-divs" [ngClass]="{complete: task.status}">
+       <div class="flex_card">
+        <div class="text"> {{ task.task}}</div>
+        <div class="dates"> {{ date | date: 'short'}}</div>
+       </div>
+        <div class="delete"> <button (click)="deleteItems(i)">&times;</button></div>
+    </div>
+    </div>
+</div>

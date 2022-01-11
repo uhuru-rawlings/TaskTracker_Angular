@@ -1,0 +1,25 @@
+.flexinputs{
+display: flex;
+justify-content: space-between;
+}
+#task{
+    width: 300px;
+    height: 30px;
+    outline: navajowhite;
+    border: 1px solid green;
+    border-radius: 3px 0px 0px 3px;
+    padding-left: 20px;
+}
+#add{
+    width: 100px;
+    height: 35px;
+    outline: navajowhite;
+    background-color: green;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+}
+form{
+    margin: 10px;
+}

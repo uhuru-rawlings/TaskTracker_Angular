@@ -1,0 +1,34 @@
+.tasks{
+    margin: 10px;
+}
+.taskcard{
+    border: 1px solid rgb(238, 236, 236);
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 5px gainsboro;
+}
+.dates{
+    font-size: 10px;
+    color: gray;
+    font-style: italic;
+}
+.complete .text{
+    text-decoration: line-through;
+    color: gray;
+}
+.sub-divs{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    color: #FFFFFF;
+    background-color: red;
+    border: none;
+    font-size: 19px;
+    border-radius: 5px;
+}
+.tasks{
+    height: calc( 100vh - 250px);
+    overflow: auto;
+}
